@@ -28,7 +28,6 @@ cc_binary {
     cflags: [
         "-Wall",
         "-Wextra",
-        "-Werror",
     ],
     shared_libs: [
         "android.hidl.token@1.0",
@@ -40,7 +39,6 @@ cc_binary {
         "libhidl-gen-utils",
         "libhwbinder",
         "liblog",
-        "libselinux",
         "libutils",
         "libvintf",
     ],
